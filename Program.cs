@@ -15,6 +15,13 @@
             public void ReadScores()
             {
                 // TODO : Implement reading 8 scores from the user
+                Console.WriteLine("Enter Eight Contestant Scores:");
+                for (int i = 0; i < 8; i++)
+                {
+                    Console.Write($"Judge {i + 1} --> ");
+                    double score = double.Parse(Console.ReadLine());
+                    scores[i] = score;
+                }
             }
 
 
