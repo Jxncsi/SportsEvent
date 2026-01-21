@@ -58,6 +58,16 @@
             public void PrintSummary()
             {
                 // TODO : Print summary report
+                Console.WriteLine("                  Summary Report                 ");
+                Console.WriteLine("-------------------------------------------------");
+                Console.Write($"Scores = ");
+                foreach (var score in scores)
+                {
+                    Console.Write(score + " ");
+                }
+                Console.WriteLine($"\nLowest Score = {Lowest()}");
+                Console.WriteLine($"Highest Score = {Highest()}");
+                Console.WriteLine($"Average Score = {Average()}");
             }
         }
         /// <summary>
