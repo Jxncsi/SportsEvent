@@ -42,7 +42,7 @@
             public double Highest()
             {
                 // TODO : Determine the highest score
-                return 0;
+                return scores.Max();
             }
 
 
