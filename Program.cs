@@ -46,8 +46,7 @@
             /// <returns>The average</returns>
             public double Average()
             {
-                // TODO : Calculate the average without lowest and highest score
-                return 0;
+                return scores.Average(); 
             }
 
 
