@@ -47,8 +47,7 @@
             /// <returns>The average</returns>
             public double Average()
             {
-                scores.Average();
-                return 0;
+                return scores.Average(); 
             }
 
 
