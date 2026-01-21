@@ -31,8 +31,7 @@
             /// <returns>The lowest score in scores</returns>
             public double Lowest()
             {
-                // TODO : Determine the lowest score
-                return 0;
+                return scores.Min();
             }
 
 
@@ -54,8 +53,7 @@
             /// <returns>The average</returns>
             public double Average()
             {
-                // TODO : Calculate the average without lowest and highest score
-                return 0;
+                return scores.Average(); 
             }
 
 
